@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    width:100vw;
+    height:100vh;
+    background: linear-gradient(45deg,rgb(255, 35, 72),purple);
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    background-color: whitesmoke;
+    height:500px;
+    width:45%;
+}
+.login{
+
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.image{
+    /* border:1px solid black; */
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left: gray dashed 1px;
+
+}
+/*Estilização da página de login, seção de inputs e botões*/
+h1{
+    margin:8px auto 32px 8px;
+}
+p{
+    margin-bottom: 16px;
+    margin-left:8px;
+}
+label{
+    font-weight: 800;
+    margin-left:8px;
+}
+input{
+    margin-bottom: 32px;
+    padding:10px;
+    /* border:none; */
+    border-radius: 50px;
+    margin-left:8px;
+    width:300px;
+    font-weight: bold;
+    border:2px solid #252525;
+}
+.botao{
+    display:flex;
+    justify-content: center;
+}
+button{
+    padding:16px 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: linear-gradient(90deg,rgb(64, 182, 221),blue);
+    border:none;
+    border-radius: 50px;
+    color:white;
+
+}
+button:hover{
+    cursor:pointer;
+}
+.google{
+    border:1px gray solid;
+    margin-left: 8px;
+    padding:5px;
+    border-radius: 50px;
+    margin-top: 16px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    text-align: center;
+    width:250px;
+}
+.google:hover{
+    cursor:pointer;
+}
+.google img{
+    margin-left: 8px;
+}
+h5{
+    margin-left:8px;
+}
+.conta{
+    display:flex;
+    /* border:1px solid black; */
+    justify-content: center;
+    margin-top: 8px;
+}
+.conta a{
+    text-decoration: none;
+    color:#252525;
+}
+.conta a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.aside{
+    width:450px;
+}

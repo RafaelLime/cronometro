@@ -4,34 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Cronômetro</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Login</title>
 </head>
 <body>
-    <section>
-        <h1>Cronômetro</h1>
-        <div class="temporizador">
-            <div class="horas">
-                <p id="horas">00</p>
+    <section class="login">
+        <h1>Login</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, voluptatem distinctio laboriosam culpa iure pariatur sapiente, voluptas rem, commodi deleniti sit. Magni, autem. Corrupti consequatur ducimus quia repellat explicabo magnam.</p>
+        <form>
+            <label>E-mail</label><br>
+            <input type="email"><br>
+            <label>Senha</label><br>
+            <input type="password"><br>
+            <div class="botao"><button>Entrar</button></div>
+            <div class="google"><img src="google.png">
+                <h5>Fazer login com Google</h5>
             </div>
-            <div class="minutos">
-                <p id="minutos">00</p>
+            <div class="conta">
+                <a href="#">Não tem conta? Crie uma!</a>
             </div>
-            <div class="segundos">
-                <p id="segundos">00</p>
-            </div>
-        </div>
-        <div class="controles">    
-            <button id="start" onclick="disparar()">Começar</button>
-            <button id="stop" onclick="PararContagem()">Parar</button>
-            <button id="reset" onclick="resetar()">Resetar</button>
-        </div>
+        </form>
+
+
     </section>
+    <section class="image">
+        <img class="aside" src="monitoring.png">
 
-
-
-
-
-    <script src="script.js"></script>
+    </section>
+    
 </body>
 </html>
